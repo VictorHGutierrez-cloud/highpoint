@@ -163,6 +163,7 @@ export interface CinematicHeroProps extends React.HTMLAttributes<HTMLDivElement>
   cardDescription?: React.ReactNode;
   metricValue?: number;
   metricLabel?: string;
+  clientName?: string;
   ctaHeading?: string;
   ctaDescription?: string;
   onCtaClick?: () => void;
@@ -181,6 +182,7 @@ export function CinematicHero({
   ),
   metricValue = 15,
   metricLabel = "unidades de negócios",
+  clientName = "",
   ctaHeading = "Acessar a Proposta",
   ctaDescription = "Descubra como a Factorial pode transformar a gestão de RH da Dulceria Nacional com automação, IA e integrações.",
   onCtaClick,
@@ -335,9 +337,11 @@ export function CinematicHero({
             <span className="text-silver-matte block">{tagline1}</span>
             <span className="text-days text-silver-matte block mt-2">{tagline2}</span>
           </h1>
-          <p className="text-track mt-8 text-lg md:text-xl text-white/50 max-w-md text-center">
-            Grupo Webcor
-          </p>
+          {clientName ? (
+            <p className="text-track mt-8 text-lg md:text-xl text-white/50 max-w-md text-center">
+              {clientName}
+            </p>
+          ) : null}
         </div>
 
         {/* Main card */}
