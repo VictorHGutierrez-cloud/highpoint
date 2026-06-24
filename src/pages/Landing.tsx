@@ -20,6 +20,7 @@ const Landing = () => {
       metricLabel="employees across 4 entities"
       ctaHeading="View the Proposal"
       ctaDescription="See how Factorial can replace manual HR across Cape Town and Gauteng — built from your discovery call."
+      ctaButtonText="View Proposal →"
       onCtaClick={() => navigate("/proposta")}
     />
   );

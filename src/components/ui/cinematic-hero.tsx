@@ -166,25 +166,27 @@ export interface CinematicHeroProps extends React.HTMLAttributes<HTMLDivElement>
   clientName?: string;
   ctaHeading?: string;
   ctaDescription?: string;
+  ctaButtonText?: string;
   onCtaClick?: () => void;
 }
 
 export function CinematicHero({
-  brandName = "FACTORIAL RH",
-  tagline1 = "Plataforma completa",
-  tagline2 = "para a gestão de RH.",
-  cardHeading = "RH inteligente, integrado.",
+  brandName = "FACTORIAL HR",
+  tagline1 = "One platform.",
+  tagline2 = "for modern HR teams.",
+  cardHeading = "Smart, integrated HR.",
   cardDescription = (
     <>
-      A Factorial centraliza todos os processos de recursos humanos numa plataforma única
-      com <strong>IA integrada</strong>, automação e integrações nativas com Microsoft, Primavera e sistemas de ponto.
+      Factorial centralises HR in one platform with <strong>built-in AI</strong>, automation, and native
+      integrations for payroll and time tracking.
     </>
   ),
-  metricValue = 15,
-  metricLabel = "unidades de negócios",
+  metricValue = 100,
+  metricLabel = "employees",
   clientName = "",
-  ctaHeading = "Acessar a Proposta",
-  ctaDescription = "Descubra como a Factorial pode transformar a gestão de RH da Dulceria Nacional com automação, IA e integrações.",
+  ctaHeading = "View the Proposal",
+  ctaDescription = "See how Factorial can transform your HR operations with automation, AI, and integrations.",
+  ctaButtonText = "View Proposal →",
   onCtaClick,
   className,
   ...props
@@ -441,14 +443,14 @@ export function CinematicHero({
           </div>
 
           {/* Floating badges */}
-          <div className="floating-badge floating-ui-badge absolute top-[12%] right-[8%] md:right-[15%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block">
-            <p className="text-white text-xs md:text-sm font-semibold">3.000+ Colaboradores</p>
+          <div className="floating-badge floating-ui-badge absolute top-[12%] right-[8%] md:right-[15%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block border border-[#FF355E]/30 bg-[#FF355E]/10">
+            <p className="text-white text-xs md:text-sm font-semibold">100+ Employees</p>
           </div>
-          <div className="floating-badge floating-ui-badge absolute bottom-[18%] left-[5%] md:left-[12%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block">
-            <p className="text-white text-xs md:text-sm font-semibold">IA & Automação</p>
+          <div className="floating-badge floating-ui-badge absolute bottom-[18%] left-[5%] md:left-[12%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block border border-[#FF355E]/30 bg-[#FF355E]/10">
+            <p className="text-white text-xs md:text-sm font-semibold">AI & Automation</p>
           </div>
-          <div className="floating-badge floating-ui-badge absolute bottom-[10%] right-[10%] md:right-[18%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block">
-            <p className="text-white text-xs md:text-sm font-semibold">Microsoft Partner</p>
+          <div className="floating-badge floating-ui-badge absolute bottom-[10%] right-[10%] md:right-[18%] z-30 rounded-2xl px-3 md:px-5 py-2 md:py-3 hidden sm:block border border-[#FF355E]/30 bg-[#FF355E]/10">
+            <p className="text-white text-xs md:text-sm font-semibold">Sage 50 Sync</p>
           </div>
 
           {/* CTA section */}
@@ -461,7 +463,7 @@ export function CinematicHero({
             </p>
             <div className="flex gap-4">
               <button onClick={handleCtaClick} className="btn-modern-light rounded-2xl px-8 py-4 text-base font-semibold cursor-pointer">
-                Acessar →
+                {ctaButtonText}
               </button>
             </div>
           </div>
