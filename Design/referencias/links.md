@@ -6,4 +6,4 @@
 | Login demo | | |
 | Senha demo | | |
 | Vídeo YouTube (embed) | | ID: |
-| Help / docs | | |
+| Help — Time off | https://help.factorialhr.com/en_US/time-off | Slide "Leave & absences" |
