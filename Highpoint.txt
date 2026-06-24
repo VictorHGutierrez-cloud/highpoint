@@ -1,0 +1,783 @@
+3a9e103c-4e21-4f8c-a651-3347f3c90691
+00:00:02,330 --> 00:00:08,670
+Paolo Patrizio Urzi: limitations uh and the technical stuff for factorial for exponent very
+
+fc44e837-eb36-4a7f-82dc-70f04a14fbae
+00:00:08,670 --> 00:00:22,610
+Victor Henrique Aguiar Gutierrez Duarte: nice nice to meet you random so nice to have you on board i didn't know about this partnership yet i'm i'm not like so familiar with what's going on in south africa but amazing to hear i have a new partner of course
+
+de9400c8-ebcc-4561-a939-2ebbb6117175
+00:00:25,280 --> 00:00:28,880
+Ashley Pillay: No, cool. Nice to meet you. Hopefully I will see you soon.
+
+89c42341-3a01-4dd3-b1b0-eceab08b2b7a
+00:00:29,840 --> 00:00:31,060
+Victor Henrique Aguiar Gutierrez Duarte: I hope so, yeah.
+
+422afdab-8c15-4ca0-a30c-bc345e3b2838
+00:00:33,100 --> 00:00:37,660
+Victor Henrique Aguiar Gutierrez Duarte: He owes me a South Africa trip because I'm taking him to Brazil.
+
+f2b25389-437b-4127-8969-e7d299077487
+00:00:38,380 --> 00:00:39,240
+Paolo Patrizio Urzi: That's true, yeah.
+
+f2dbd55c-62bf-4cf6-a4e3-7b9d3bb5f6b4
+00:00:39,840 --> 00:00:40,980
+Ashley Pillay: Where are you situated, Victor?
+
+18ca36fc-50d8-41d4-8768-060b057a1ae5
+00:00:41,640 --> 00:00:53,660
+Victor Henrique Aguiar Gutierrez Duarte: Actually, I'm in Barcelona, but I just moved from Brazil. But fun fact, I'm going to Brazil tomorrow morning. When I say morning, it's like 4 a.m. I have to be in the airport, so oh my God.
+
+c170da88-4056-436f-9c73-bcb2c7b0a9f1
+00:00:55,209 --> 00:01:13,460
+Ashley Pillay: okay it's nice probably that's nice problems to have yeah yeah it would be worse right yeah complaining too much um i don't see anyone else joining um let me just like get a hold of my team Hi.
+
+00ae6bf6-cd66-48d1-b64d-af51b741553e
+00:01:13,460 --> 00:01:13,820
+Victor Henrique Aguiar Gutierrez Duarte: Hello.
+
+96d1aca5-af1b-48ce-b135-e1ad3ee106ef
+00:01:14,700 --> 00:01:15,620
+Elani Swanepoel: Hi, how are you?
+
+819ceb68-07ee-4d69-a522-2af560e735a9
+00:01:15,620 --> 00:01:15,740
+Victor Henrique Aguiar Gutierrez Duarte: Hi.
+
+0a7dc0f4-a53a-40fe-915d-b1dec4355edd
+00:01:16,180 --> 00:01:16,880
+Ashley Pillay: Hi, Lani.
+
+ded94232-f7e5-4b49-b6a4-6c1a52cb33aa
+00:01:17,620 --> 00:01:18,580
+Elani Swanepoel: Hi, Randall.
+
+993beeb0-6c8e-4068-8945-da3b799d24a8
+00:01:19,000 --> 00:01:19,640
+Ashley Pillay: How are you?
+
+142ac9e0-e689-43ff-a5ea-eb4c8b8e5697
+00:01:20,160 --> 00:01:21,680
+Elani Swanepoel: Good in you. I'm very well.
+
+9faa5c98-909b-4c6b-9878-5e6fefa81629
+00:01:22,580 --> 00:01:23,920
+Paolo Patrizio Urzi: Hi, Lani. How are you doing?
+
+e9c79b67-51db-48bf-912c-a5595b739de5
+00:01:24,140 --> 00:01:24,780
+Elani Swanepoel: Good in yourself.
+
+53c6ec0c-405d-412d-b851-29d8779f2f65
+00:01:25,760 --> 00:01:44,210
+Paolo Patrizio Urzi: Good, thank you. I just wanted to do a quick intro. My name is Paolo, so I'm part of the Factorial team. I'm based in Johannesburg. Right now, I'm at actually the Brynstein Country Club. I'm the manager for the southern region of Africa for Factorial. So if you need anything, I'll be your point of contact moving forward, just to let you know.
+
+ce3446b3-7349-43f2-8bb8-6aa4dd3613b9
+00:01:44,890 --> 00:01:45,330
+Elani Swanepoel: Sorry.
+
+64c61353-e2bf-408f-a5eb-5139a7c6b8e6
+00:01:46,070 --> 00:01:48,470
+Victor Henrique Aguiar Gutierrez Duarte: Now we see you. Yes.
+
+75f5be57-abc1-478a-8fe0-fe652935094c
+00:01:48,930 --> 00:02:00,650
+Elani Swanepoel: I just want to wait for, there's another colleague of mine that needs to log in. Let me just get hold of him to see where he's at. Just hold on one second.
+
+7b398de6-81bc-4120-8161-8b8950da7b9b
+00:02:01,130 --> 00:02:01,610
+Paolo Patrizio Urzi: No problem.
+
+b5401764-f38a-42c5-973f-1179dea2e33d
+00:02:02,710 --> 00:02:05,670
+Elani Swanepoel: I think you guys send him the link, hey, Werner?
+
+b9c3563f-cead-443a-be2c-f1f4a49f06d7
+00:02:06,710 --> 00:02:07,850
+Victor Henrique Aguiar Gutierrez Duarte: Let me see.
+
+7d2cb144-4332-4f34-8712-47eaa8511ab8
+00:02:10,008 --> 00:02:12,170
+Victor Henrique Aguiar Gutierrez Duarte: I'm not sure we invite her.
+
+2b15ae12-47e6-4292-9bf1-567e9259e931
+00:02:13,430 --> 00:02:14,150
+Paolo Patrizio Urzi: Him.
+
+62d15e4b-6134-45bd-bde8-5c7688777a68
+00:02:14,510 --> 00:02:15,310
+Victor Henrique Aguiar Gutierrez Duarte: Him, sorry.
+
+94eb75c7-b40c-4a68-8a35-e3a22baed5f9
+00:02:17,310 --> 00:02:21,910
+Elani Swanepoel: Okay. Otherwise, can I forward this to him?
+
+eb063a03-3b9e-4036-93c6-c79eac766fb9
+00:02:22,450 --> 00:02:23,030
+Ashley Pillay: Yeah, you can.
+
+675048f4-44d6-4071-96ef-a6c23e7390a9
+00:02:26,390 --> 00:02:27,770
+Elani Swanepoel: Let me see.
+
+996ed280-629a-4538-a028-a54ed1d0d40a
+00:02:35,940 --> 00:02:38,300
+Elani Swanepoel: This is quite a new platform for me.
+
+727e0964-ced3-4792-b36b-aa318ad18839
+00:02:40,900 --> 00:02:44,180
+Victor Henrique Aguiar Gutierrez Duarte: Don't worry. I have problems with Zoom and with Teams.
+
+7ce992a5-1e18-4cd3-9d8c-6a70beb0f1d1
+00:02:51,560 --> 00:02:53,880
+Elani Swanepoel: All right, send that to him.
+
+934b326a-a149-4ab2-a17b-5e110352152f
+00:02:55,720 --> 00:03:01,540
+Victor Henrique Aguiar Gutierrez Duarte: If you want to share his email as well, I can...
+
+f8442c5e-ccce-4149-a0b0-fe5d91bc11f1
+00:03:01,540 --> 00:03:23,240
+Elani Swanepoel: Yes, I've forwarded him the meeting request. So I'm just going to give him a minute quickly to log on. He's just based in two different provinces. So for us, I just need him from that side to also listen in. yeah what it's about just give me one second i just want it all okay
+
+b8f754f5-8391-4dd5-b766-8bce2d6d765e
+00:03:23,240 --> 00:03:29,660
+Victor Henrique Aguiar Gutierrez Duarte: randall
+
+7d6dad75-2334-4bf6-9ce5-8cdaebf2bf63
+00:03:29,660 --> 00:03:31,900
+Paolo Patrizio Urzi: is farron gonna join or no i
+
+6eac0aaf-036f-47cb-8173-3c8967a1413d
+00:03:31,900 --> 00:03:35,920
+Ashley Pillay: just popped a message actually um i don't see her online
+
+2565e284-31e9-4068-9166-5d67ea9b4446
+00:03:35,920 --> 00:03:38,920
+Victor Henrique Aguiar Gutierrez Duarte: no
+
+69f1e786-dff1-41e6-91f2-04f5948cb31f
+00:03:38,920 --> 00:03:41,900
+Paolo Patrizio Urzi: stress i know she's doing a lot of the invoicing and everything and exponents so
+
+997cb674-fcc8-48d4-9137-f981da271a62
+00:03:57,290 --> 00:04:02,690
+Elani Swanepoel: all right guys i
+
+a711b45f-d909-469c-944c-89f2569c017e
+00:04:02,690 --> 00:04:06,750
+Victor Henrique Aguiar Gutierrez Duarte: don't think has yet to enter let's wait a little bit
+
+8d1031fd-9944-4f76-abb2-ea0be775d4ae
+00:04:10,460 --> 00:04:12,340
+Paolo Patrizio Urzi: Ilani, where are you based, if you don't want me to ask me?
+
+891ec28c-5e50-455c-b06f-3d6aa2b9a1f0
+00:04:12,960 --> 00:04:14,880
+Elani Swanepoel: In Cape Town. Ah, okay.
+
+d5236409-ab5e-4d35-9f17-623ca6ed7f7f
+00:04:15,160 --> 00:04:15,560
+Paolo Patrizio Urzi: In Cape Town.
+
+fa24ec7f-4e21-4084-89ee-d998ca2d2712
+00:04:15,780 --> 00:04:16,920
+Victor Henrique Aguiar Gutierrez Duarte: Oh, yes.
+
+bd36fc28-75e0-45e0-8105-bf8b394c0015
+00:04:17,700 --> 00:04:17,860
+Paolo Patrizio Urzi: Nice.
+
+5a1223e5-cae2-4d73-8709-2529d98d78c5
+00:04:18,579 --> 00:04:23,940
+Ashley Pillay: It's a beautiful farmland. Yeah. It's a common winelands.
+
+1d19aa46-d877-48b3-a110-28c312cb2e01
+00:04:24,860 --> 00:04:26,440
+Elani Swanepoel: Yeah, I don't mind living here.
+
+56d6975d-09aa-4d65-a399-309b5678690a
+00:04:28,730 --> 00:04:33,030
+Ashley Pillay: They have another office in Cecilburg as well.
+
+fbba5020-81f3-45f9-be01-3f2892300db8
+00:04:35,830 --> 00:04:39,250
+Elani Swanepoel: They've integrated all the offices in that side.
+
+68c96ecb-185e-49ab-b4ee-fb870ddf0bac
+00:04:52,270 --> 00:05:09,410
+Elani Swanepoel: he thinks it seems i just want to tell him it needs to click on the link we normally should actually be doing it on teams because we're a microsoft partner yeah that's the spoken truth actually yeah we should be using
+
+4a4b4d40-fe41-4c0e-9a27-2cabd0e71433
+00:05:18,000 --> 00:05:33,500
+Elani Swanepoel: Yeah, and our age is against us. We're not that this, like, the technology grow. My son, I let him learn all the new tech, and then he needs to just give me classes after work.
+
+e301b91d-0ee8-445c-8357-f560698a35de
+00:05:36,000 --> 00:05:39,340
+Paolo Patrizio Urzi: Yeah, that's cool. It's good to have a Gen Z helping, you know.
+
+ddd5674f-70b4-4724-b08e-443488d5ec89
+00:05:41,340 --> 00:06:05,270
+Elani Swanepoel: Yeah, you speak to him. My... how can i say i am a millennium um we are the reasons for everything that's gone bad according to them okay he says he's on um i don't know where he is i just accepted him
+
+d8bf8052-0a75-4ad5-969d-b6b7d22bc25e
+00:06:15,700 --> 00:06:16,860
+Elani Swanepoel: Nice, Sharon, by the way.
+
+06cf4754-cbe6-4cd4-8b63-05a067af2388
+00:06:17,420 --> 00:06:18,720
+Victor Henrique Aguiar Gutierrez Duarte: But I think you're on mute, my friend.
+
+acf44f03-7adc-4328-942b-58a8d121513f
+00:06:19,860 --> 00:06:23,560
+Elani Swanepoel: You're on mute, Vennem. Hello. Can everyone hear me?
+
+a122dac7-4785-4cd0-8a16-7f922141929e
+00:06:24,200 --> 00:06:25,240
+Ashley Pillay: Hello. Yes, we can.
+
+359b5bcc-e1cb-4e96-ae37-f102d8344b98
+00:06:26,200 --> 00:06:27,380
+Paolo Patrizio Urzi: Good afternoon, Vennem. How are you?
+
+9728e129-d95f-4444-8899-f59f0eae93c4
+00:06:31,640 --> 00:06:35,440
+Victor Henrique Aguiar Gutierrez Duarte: Now we can hear you. Yeah, yeah, yeah. Let's go.
+
+6861bc11-1219-4a8c-a684-8e4a3dac06f1
+00:06:37,660 --> 00:06:45,220
+Victor Henrique Aguiar Gutierrez Duarte: Amazing. So yeah, a lot of nice people here. Paulo, do you want to start and introduce everyone?
+
+d375bab9-e083-4717-90ee-fe13e3cf2d9a
+00:06:46,080 --> 00:07:36,470
+Paolo Patrizio Urzi: Of course, yeah, not a problem. So firstly, thank you so much, Randall and Farron from Exponent for joining. Werner and Ilani, Exponent is actually one of our partners in South Africa. So we partner with Sage, but we obviously partner with a lot of different Sage, you know, platinum providers like Exponent. They're big in the industry in South Africa. um and yeah i'm the manager for factorial for the southern region here in africa um we have established ourselves about a year ago in africa we're in both southern africa and east and west africa in kenya we have a dedicated team there as well um and yeah we're properly expanding so super excited to to show you factorial just wanted to intro victor victor is based in barcelona that's actually where factorials hq is in barcelona so he's He has the sun. He's not in wintertime like
+
+e39fa229-90c6-4a92-b273-ff85435b1c32
+00:07:36,470 --> 00:07:52,770
+Paolo Patrizio Urzi: us. And yeah, Victor is the, you know, he's an account executive specifically for the African market. And yeah, he's going to be able to take you through the platform, answer any questions that you may have. So feel free to say anything that you may need. Cool.
+
+ec0bece5-920c-46bf-ae43-21106cdae6c8
+00:07:53,470 --> 00:07:53,730
+Elani Swanepoel: Perfect.
+
+af460009-57e2-4c9c-98f8-f7dd9ad56bb9
+00:07:54,980 --> 00:08:16,000
+Victor Henrique Aguiar Gutierrez Duarte: Amazing. Thank you. I would love to hear more about you, Werner, as well. And of course, about you, Eleni. So I know, Eleni, you are responsible for the finance team, more or less, the research we did on LinkedIn. I would love to have more information about what you do. And Werner, are you joining us as the tech guy here? Just to know you better, my friend.
+
+f2abb3a3-99e7-44ec-a79c-ef04c74ed392
+00:08:16,820 --> 00:08:22,140
+Werner: I'm also in finance, obviously. I'm Eleni's right-hand man.
+
+39f48e1e-a18f-4b86-82dd-1c217cafa390
+00:08:23,720 --> 00:08:24,400
+Elani Swanepoel: so he's in
+
+a8fbb936-95e8-4d97-afeb-14ebd2b078c3
+00:08:24,400 --> 00:08:26,460
+Victor Henrique Aguiar Gutierrez Duarte: the province
+
+87f8a36a-f2fa-4f2b-94a8-08de1bf71b8b
+00:08:26,460 --> 00:08:43,179
+Elani Swanepoel: and i'm in cape town so we're quite for um so he's my my physical form that side to make sure that the people that's working they do what they need to do and stay within uh budgets and
+
+ab188640-7c7b-4bac-9b77-898e045f572b
+00:08:43,179 --> 00:08:44,159
+Victor Henrique Aguiar Gutierrez Duarte: we're also
+
+e37c58f2-bb51-4656-bc3f-13433a12a3fd
+00:08:44,159 --> 00:09:52,480
+Elani Swanepoel: involved in um we're also involved in hr and payroll and all of that um it's one responsible for all of that so for us it's and for Vanna as well I know that's something that's very much time consuming especially if you have different type of platforms that you're working on because I know some of the platforms are literally you just copy pasting the whole time the information because it doesn't speak to each other so I mentioned this to Randall that if we can have something that can assist me and Banner as well to manage our payroll and our staff whatever with in the business we've got four businesses so basically we've it's four different registered businesses Randall will know them well we've started also as only two businesses and then grew into four um it's difficult into because but for all four of them are
+
+759b0bc0-3841-4c2f-a2e0-b974a07dc286
+00:09:52,480 --> 00:10:01,120
+Elani Swanepoel: different types of business all although they do interlink in each other because it's engineering steel manufacturing
+
+17387a61-ea92-4ea1-b483-c96ddfe9feaf
+00:10:01,120 --> 00:10:03,660
+Victor Henrique Aguiar Gutierrez Duarte: production that's okay um
+
+46d89f35-aee8-4efb-990f-0da8a1ca0925
+00:10:03,660 --> 00:10:38,050
+Elani Swanepoel: but with that said is um we we grew into a place where you're in south africa you need to broaden your market so we came to Cape Town as well and yeah we just need to still as a we're not a group company four individual companies but as a group management group manages the group as one so I need also to have a transparent system within these four companies that everybody working on the floor knows does the same thing okay
+
+4becec2a-fbb7-4db7-9c33-d7ca6086cab3
+00:10:38,050 --> 00:10:57,410
+Victor Henrique Aguiar Gutierrez Duarte: so you have the hq policies and i have to be sure that all of the companies kind of because one has okay amazing and uh you said to me that you have scattered platforms so the main question here is uh do you have any current hr systems running on your company no um
+
+c47ad9c6-34f2-4425-8566-13f2891b9b71
+00:10:57,410 --> 00:11:58,080
+Elani Swanepoel: no we don't we don't have like we work on basically we do on um is that pastel payroll it's still we still do all school of the hr so um currently we're doing that combined with we've got a bargaining council um which is our business bargaining council we need to basically report on their system as well and um yeah so we don't actually have something in place it's very manual labor in terms of contracts and then we've got a clocking system um we it's called uniclocks i don't know if you familiar with it but that's a software that we use to manage the clockings in the group um it does not currently we're not using an integrated system um so one doesn't speak to the other so everything is manual and it's quite on time consuming um and then another thing is um where evolution
+
+6588e0e2-59e5-4f10-8618-7e74c19249bd
+00:11:58,080 --> 00:12:44,040
+Elani Swanepoel: comes into play now is currently we're also doing um journals into you know our salaries um randall has been with us for a few years now and we've grew grew in costing so we're very focused in cape town on our fasting but because we have a very It's a very difficult type of costing we do in our business. We focused on stock and all of that. But I would like to, one of these days, then incorporate my HR part of it as well, so we can do better on that side as well. So yeah, that's a mouthful. But yes, that's more of us than what we do.
+
+ae29044d-8be0-43e4-a8f4-82ec7fdb2c37
+00:12:46,190 --> 00:12:56,610
+Victor Henrique Aguiar Gutierrez Duarte: yeah okay verner do you want to add something related to to software or or systems because so far i think you just have any clock to clock in and the payroll provider right no that's
+
+b7c28199-4ada-4532-83b7-33851dcca815
+00:12:56,610 --> 00:12:59,350
+Werner: about it no that's about it okay
+
+23f9ce74-d166-4d73-8bd4-05634254bf21
+00:12:59,350 --> 00:13:00,090
+Paolo Patrizio Urzi: okay
+
+29acbdcb-836d-47b6-90d0-73624f35d3d1
+00:13:00,090 --> 00:13:04,650
+Victor Henrique Aguiar Gutierrez Duarte: how many employees do you have right now employees yeah um
+
+dad60b79-9e8a-42be-b64d-d2f3a917dcf0
+00:13:04,650 --> 00:13:20,070
+Elani Swanepoel: uh well i've got about there's about 50 in cape town um and then bano service center mining i think is around about 200 in total no yeah
+
+45b5ace5-7165-45c7-a68e-c8f3c4ef2d33
+00:13:20,070 --> 00:13:23,090
+Werner: it's under 100 it's under under yeah but for
+
+5d86bb28-f5db-449f-8511-9cb88e7b16a6
+00:13:23,090 --> 00:13:24,450
+Elani Swanepoel: all three companies on it
+
+a098c0f1-695b-4881-9b66-9d3b9b8cc8ea
+00:13:24,450 --> 00:13:32,770
+Werner: yeah but mining is about 30 i'm about 40 and service center is about 15 so yeah
+
+29e3a365-2ef4-4d46-aabe-458f6bb92a90
+00:13:35,080 --> 00:13:53,440
+Victor Henrique Aguiar Gutierrez Duarte: okay okay about 100 perfect so uh in this case uh you just have the clocking and i'm going i'm going straight to hr questions here uh what about time office requests uh workflows how do you handle these kind of things if i need everything we
+
+0ea0272d-905f-45e6-9a3c-0d412f4e8e78
+00:13:53,440 --> 00:14:11,020
+Elani Swanepoel: literally do not have anything in place in terms of um you know clocking or time off in a in a system um they will fill in a form and then we will process it into our our systems okay
+
+8c56906f-6dec-4566-a10d-788b8d02f424
+00:14:11,020 --> 00:14:12,660
+Ashley Pillay: so
+
+5d7de688-1d5a-4f45-88aa-5283b9e432bd
+00:14:12,660 --> 00:14:33,500
+Victor Henrique Aguiar Gutierrez Duarte: i suppose that documents are stored like physical documents right you don't have your document started on the cloud right it's obviously great all right okay um do you have mandatory trainings for of course probably you have some mandatory trainings and some policies that they have to follow on right okay
+
+5d6fd68f-e377-4ed7-914b-737109b26e37
+00:14:33,500 --> 00:14:34,520
+Elani Swanepoel: okay
+
+e6a5c177-ae96-4824-9f2d-b290f573870b
+00:14:34,520 --> 00:14:49,690
+Victor Henrique Aguiar Gutierrez Duarte: amazing so you probably have an onboarding flow that is manual as well if you hire someone to the operational side this person goes to the factory and starts and do the boarding and do the training and this kind of things and probably this is manual as well right this time of just tracking
+
+a35c3c68-5df2-4d77-b931-f78e4f1f9205
+00:14:50,250 --> 00:15:38,320
+Elani Swanepoel: Yes, we do have extensive, like Vanish needs to 110% comply to ISO standards for his type of business. He currently has an audit. Howden is one of the customers, they are auditing them. And we actually had a discussion yesterday where he needs to now go and find, because we had an HR resigning. yeah and then because you're so physically with documents we need to see where what were the documents um correctly filed was it filed onto the server all of that so um yeah so for now this will help a lot amazing
+
+2c63f35e-a187-4090-8157-27f58dfd8920
+00:15:38,320 --> 00:16:35,150
+Victor Henrique Aguiar Gutierrez Duarte: in case of expiration let's suppose that you have some training that is expiring you have access here in factorial uh Actually, you can create a sequence of tasks to keep tracking of this training, et cetera, since the first beginning. So you can start sharing videos, documents, and et cetera since the first day. And meanwhile, during this meanwhile, every time someone enters a high point, we can start asking for information, basic information. So bank details, emergency contact, address, this kind of things. We can start storing. documents since from the beginning. So, Victor, welcome to Highpoint. I need you to upload your ID. First thing, I'm going to ask the point. I pick my cell phone and I upload this document to you. And the first document is stored on Factora. Okay. If you need to sign something for an audit trail, let's suppose you gave a
+
+29f31d00-d1b1-4923-894a-25ae591f9279
+00:16:35,150 --> 00:17:00,420
+Victor Henrique Aguiar Gutierrez Duarte: certification to someone and you have to sign this. Our signatures are compliant. So, in any case, you need to find this. You have a folder specifically for this document. So you send this document, you get a signature, your story factorial, and anytime you want to see documents of your company, you can hear two employee documents and search for the folder trainings or et cetera.
+
+92f7ad8d-7ef1-48a9-9510-54618a9196b5
+00:17:03,440 --> 00:17:04,220
+Werner: Very cool.
+
+cc45e53f-0e2b-4083-bc7a-4a1c72e23e45
+00:17:04,720 --> 00:17:05,560
+Victor Henrique Aguiar Gutierrez Duarte: Very easy, right?
+
+2c3fd11e-6358-4b8f-bcfa-8a44198c5811
+00:17:07,550 --> 00:17:08,150
+Elani Swanepoel: Okay.
+
+2d7e8da0-a4d2-4f5d-b0d4-a7a63b48deff
+00:17:08,608 --> 00:17:35,410
+Victor Henrique Aguiar Gutierrez Duarte: Amazing. So let's suppose that you need our Victor. I want to be warned one month before any expiration of anything, driver license or trainings, etc. We can create a workforce here, custom workforce that's going to send an email to you, to his manager, to anybody that is responsible for this. So we can set these warnings in a tailored way. So you're going to be warned even before this happens.
+
+8734a570-68c3-4a5c-a6fb-5df4a8b2483a
+00:17:37,350 --> 00:17:38,230
+Werner: Very nice.
+
+639fb0ca-a8b6-4960-aa3f-fc78e25845c5
+00:17:38,750 --> 00:18:09,570
+Victor Henrique Aguiar Gutierrez Duarte: Perfect. This is like the very early stage of Factorial, because after that, our proposal actually, Factorial, is to bring everything together. After that, it can set the time tracking. So they will start clock in and clock out in many different ways. They can clock in through the computer for the internal team. I can use factorial to clocking. You can see that I have clocking here, or I have people that travels a lot. I can clock on my cell phone. Why not?
+
+a329fdad-d698-47e0-bbb4-665a231dfcaa
+00:18:10,190 --> 00:18:39,120
+Elani Swanepoel: Okay. Tell me if the software, I would need to just find out exactly, but I think we've got a very generic software, a hardware, which we use for... uniclocks when they clock in um is your software specific to a specific type of hardware do we need to load it on does it come or is it any phone amazing
+
+4ad03ade-da20-4c56-9502-f90a7704e07d
+00:18:39,120 --> 00:19:11,280
+Victor Henrique Aguiar Gutierrez Duarte: question actually so um for the application every employee has his portal but for the fixed one for these machines that is stuck on the place uh we integrate with zekatseko with more than three or four but if you send me probably this model i can see if integrate so you don't need to buy another one okay okay amazing instead you can use any type of electronic device that has a camera because we can do the facial recognition with any kind of asset. So it could be a mobile phone stuck in the wall. It could be a tablet stuck in the wall.
+
+6861b3e4-ae53-43f7-9139-0d547cc1b70e
+00:19:11,580 --> 00:19:19,780
+Elani Swanepoel: So it's another option as well. So the device that we actually have, it's like a mobile phone. Yeah.
+
+cf40714b-cd56-4cb2-8712-228220b9ae88
+00:19:20,760 --> 00:19:20,840
+Werner: Yeah.
+
+972080ee-d288-44c8-bfb8-97a3909b42f1
+00:19:23,300 --> 00:19:26,600
+Victor Henrique Aguiar Gutierrez Duarte: Really? So yeah, we have this figure then. Okay.
+
+2570a5e8-0a5a-4a1b-99a5-47d10258abf6
+00:19:26,760 --> 00:19:39,750
+Elani Swanepoel: So then it integrates with the system, which actually keeps all your HR documents and let you know when people need to go for training or if their certifications expire and all of that.
+
+7959d54b-4a69-4633-b969-0a446e7adf61
+00:19:40,390 --> 00:20:24,220
+Victor Henrique Aguiar Gutierrez Duarte: Yeah, of course. So we can bring this time tracking data inside factorial where you have everything stored here. That's the point. And of course, if the time tracking will be accumulated, the extra hours, and I need to make some questions about this. But the timesheet here, let me pick another one. but it doesn't matter where you're like clocking because here you have the control and about this do you have like different uh different extra hours like different categories of of of hours how do you manage this in in high point Well, it's again a setup in the software.
+
+73894c4b-dc38-4646-9f8c-42af64f194e9
+00:20:24,940 --> 00:21:01,550
+Elani Swanepoel: So we have four specific types of barrels, well if I can say barrels, loaded onto our clocking software and then we have to set it for that type of clocking because otherwise let's say for instance the mines, we've got people working in mines, so they work different days and different hours then we had to set up their specific hours and you've got drivers that's driving up and down they have to because they don't have fixed hours that they work on we have had to create another um how can i say setting for them
+
+42ae6d27-92a0-45f0-b4bf-b816686d054b
+00:21:05,650 --> 00:21:10,370
+Victor Henrique Aguiar Gutierrez Duarte: Okay, so you work mostly with shifts, I think. It's more shifts.
+
+2f6ea092-b691-4bde-988b-7a104f683132
+00:21:10,670 --> 00:21:38,390
+Elani Swanepoel: Yeah, it is type of shifts. I know in the future, this year, we actually... build a very big workshop some of that said our production slow down a bit but um once we get into full production again i know the gym wants to start night two shifts as well a day shift and a night shift so you can say that we do work on shifts but
+
+6b6db0a9-8593-4267-aa59-514178ca156b
+00:21:38,390 --> 00:22:29,470
+Victor Henrique Aguiar Gutierrez Duarte: after that you're gonna change this Okay. Until then, you can use the shift scheduler here in Factorial. So we can be sure that your production site has all the employees that you actually need. So before, oh, I need 10 people on this week there or in this month. You can create different kind of shifts and Factorial has an AI scheduler. So based on the past month, we kind of figure what would be like the best days for each one to work. uh of course like knowing that you need better enough of people there so you can create the shifts here this will reflect to the time clock system of course and then you publish so everybody will receive like in the first day of the the week victor you're gonna work on this place this day this hour this hour and we can still set
+
+c4c64550-8ab8-4f07-8ffb-4dabaecb7e2e
+00:22:29,470 --> 00:22:33,010
+Victor Henrique Aguiar Gutierrez Duarte: extra hours and night shifts how does this look to you
+
+04215ce1-7465-4be0-b3d5-0a371772eda7
+00:22:33,710 --> 00:22:41,550
+Elani Swanepoel: Yes, and does it communicate to the employees directly then, if you say it publishes the communication out?
+
+2ce0bef6-9722-49ee-9c2a-40febe934ced
+00:22:44,810 --> 00:22:46,870
+Victor Henrique Aguiar Gutierrez Duarte: Why are you publishing the communicate, sorry?
+
+10e76d31-cb05-48a8-94d5-8cf4131aa707
+00:22:47,270 --> 00:22:55,590
+Elani Swanepoel: Now, I'm just asking, when you say you're publishing the shifts, does it send communication out to employees? Yes.
+
+28e0f5e9-e771-4736-8a7b-e3ebc59c87c3
+00:22:56,410 --> 00:23:01,690
+Paolo Patrizio Urzi: It does send a notification through the email and through the factorial portal as well, like the factorial system as well.
+
+60c05784-8340-4002-85df-bafbdd2fca2c
+00:23:02,310 --> 00:23:37,650
+Victor Henrique Aguiar Gutierrez Duarte: Exactly. Plus, the push notification on the cell phone. So they receive three types of communication. The push notification, the email notification, and in their inbox, we have everything related to their life cycle. So every time you upload a document to me, I receive an email. Every time, like, my employee forgot to clock in, the manager will receive, like, a notification. Victor forgot to start a shift. These kind of things. And time off. The manager will receive this. Victor is asking for a time off. And he said to me, that is manual, right?
+
+acf8e5fd-e398-493b-8eee-f05394d92dfa
+00:23:39,340 --> 00:24:02,300
+Elani Swanepoel: Tell me, when the manager gets the note, let's say you want to book time off tomorrow, let's say I want to book time off tomorrow, I go into the system, he has an employee, sorry guys, and then my manager will then on this platform then approve and I can see if my leave was approved.
+
+1e8396c2-b690-403c-903b-74e62e0a14f8
+00:24:03,000 --> 00:24:44,960
+Victor Henrique Aguiar Gutierrez Duarte: The time off. Exactly. So the first beginning, I have my time of allowance. So we do cover the required, the accumulated time of here. And I have full visibility over the pending review ones. So if I send, where is this? Okay, the manager has approved, but I have another instance. So we can still create more than one layer of approval here. So the manager approving the first step, and after that, probably you. that has the general review can, of course, approve after that. Not just the pending ones, but the current and upcoming and the past ones.
+
+ac3295ad-3f96-4af6-8290-67643f22c071
+00:24:47,270 --> 00:25:02,810
+Elani Swanepoel: Okay. Just to make sure I understand, so the device, so it's emails, the email communication to employees is via email, or they will load this type of software on their devices and then manage it from there?
+
+1ac1f7c4-0b48-4987-b7bb-1836374783fc
+00:25:03,630 --> 00:25:22,490
+Victor Henrique Aguiar Gutierrez Duarte: Amazing question. Actually, 90% of our platform is within the mobile application, so they can make everything on the mobile phone. I never... i never open factorial on my desktop it's more for managers why right yeah because you do understand because you have the full over
+
+0c6e195c-cd48-4875-8301-01bf533af655
+00:25:22,490 --> 00:25:26,570
+Elani Swanepoel: and all of that exactly
+
+e04b0cd6-dbab-4135-9cf8-7879b968899e
+00:25:26,570 --> 00:25:29,650
+Victor Henrique Aguiar Gutierrez Duarte: exactly okay so how
+
+03ca8a56-4455-4604-9db4-cae925ea41b9
+00:25:29,650 --> 00:25:35,370
+Elani Swanepoel: does this system then integrate with um sage so
+
+cf3a97df-cd3e-4510-a76d-4ffd6cce96f1
+00:25:35,370 --> 00:25:36,370
+Victor Henrique Aguiar Gutierrez Duarte: victor
+
+0fa658f8-1a04-41a6-88f7-79c3164d88b1
+00:25:36,370 --> 00:25:37,670
+Paolo Patrizio Urzi: you want to answer or should i answer that one
+
+08fa8b46-9fbb-47d2-88e0-a1d888da96d4
+00:25:38,000 --> 00:25:42,020
+Victor Henrique Aguiar Gutierrez Duarte: If you have more information, meanwhile, I will open here the Sage.
+
+dd7d81bf-98a2-4533-9dbb-fb6b40de03ac
+00:25:42,020 --> 00:26:28,330
+Paolo Patrizio Urzi: Yeah, go for open the integration. So basically, we're a global company. We have integrations with Sage already set up in France, in Morocco, in Spain, in the UK, for example. And we've already set up the integration that we have here in South Africa as well. It's not in this demo environment, but when we have clients, you'll be able to see the Sage integration. Basically, it is integrating with... That's the payroll system that most of the companies in Africa use. And it's a simple click. I don't know if you want to show on the payroll side, the simple click and sync on the compensation side. Yeah. So we'll show you how to do it. It's a simple, pretty much click, a simple button, which is sync, and it syncs all the data into payroll. But Victor will explain now.
+
+2d47f377-d14f-43a5-8bd9-3fef388e8e9f
+00:26:29,750 --> 00:26:36,550
+Victor Henrique Aguiar Gutierrez Duarte: Yeah, actually, so with Sage, which version of Sage do you currently have?
+
+323daebd-1aa2-43cb-8b8d-e7f292a17e27
+00:26:37,750 --> 00:26:40,090
+Elani Swanepoel: Sage Randall 200.
+
+c1b7c278-5217-42c8-b033-fc160252431b
+00:26:40,510 --> 00:26:44,410
+Werner: I'll tell you now. Yeah, Sage 200 Evolution.
+
+352ebfa7-fa9c-4ebe-a805-2b09f2908aae
+00:26:45,310 --> 00:26:51,830
+Ashley Pillay: So that's from the Evolution side, or do you want to do the payroll with the Sage 50 cloud?
+
+58d076b2-7f89-45fe-9747-c1378620f2e9
+00:26:52,690 --> 00:26:53,450
+Victor Henrique Aguiar Gutierrez Duarte: 50s.
+
+83a1f27b-a054-4427-b124-4045d2ee2f8f
+00:26:55,639 --> 00:27:51,980
+Victor Henrique Aguiar Gutierrez Duarte: Perfect. Perfect. So yeah, I just have here. And just zip on button. Actually, after all the extra hours that you have, you're going to put this in factorial. You're going to compose your compensation tab like this. Let me go back. And after that, you just have to sync and to send this information right to stage 50 in this case. So in compensation, we have bid salary. We have deductions. We have commissions. We have extra hours, incentives. So you compose this here, and after that, you can hit this button. You can connect with Sage. And it's a native integration that we built over the last three years with them. So yeah, it's the first connection, seamless connection that you have. Because you said to me that you pick your manual time tracking on the Uniclock, and you have to manually upload this, right? How do you
+
+9a508e33-e643-47c4-885c-08523119867e
+00:27:51,980 --> 00:27:53,060
+Victor Henrique Aguiar Gutierrez Duarte: make this today?
+
+0236efe7-d639-4e70-a08a-ac14a2a12eb0
+00:27:53,710 --> 00:28:27,280
+Elani Swanepoel: Yes, so definitely we literally manually, they clock or everybody clock in with the facial recognition on the system. Then we will then manually print out the time sheets. Sorry guys. And from there on we will manually do everything from there on. So it's quite extensive manual labor that we need to do. um and hopefully we do it correctly do
+
+9cc2e926-7f18-4c80-9938-2eeadc13477e
+00:28:27,280 --> 00:28:30,740
+Werner: it correctly it's
+
+ee1a5b3c-3121-4b0d-a49c-98e6d52e6695
+00:28:30,740 --> 00:28:49,380
+Elani Swanepoel: quite extensive you can ask banner he i'm always joking with him because he i say he loves payroll and hr he does not like it at all because of the people that they could work involved in the manual labor so something like this um will help us a lot
+
+b33a419d-9685-4c21-8606-e739c3f508a4
+00:28:50,740 --> 00:28:52,800
+Victor Henrique Aguiar Gutierrez Duarte: amazing amazing to hear that all
+
+90017033-cc8c-4eaf-b2c9-4707c4aaa1f7
+00:28:52,800 --> 00:28:55,080
+Paolo Patrizio Urzi: in love with the hr again yeah
+
+98b114b1-1ced-4638-9c2f-c14bee0e88c4
+00:28:59,840 --> 00:29:43,670
+Victor Henrique Aguiar Gutierrez Duarte: So, yeah, in the general review, the proposal here is to automate documents, time tracking, time off, give some control over all the different industries that you have. And factorial, actually, I think the chair of the pie, we say this in Brazil, is the AI that we have here. It's pretty, for me, it's amazing because it's the only agentic AI that we have in HR. So let's suppose I need a report about all the time of weekly, time of report. I can put here a simple prompt. Vectorial is going to pick all the information just inside your account. We are not letting all the information go to the web. It's not like that. It's our own AI.
+
+d98ba07c-fde8-4e4f-b466-306cccc27fb0
+00:29:43,670 --> 00:29:43,830
+Elani Swanepoel: It's internal.
+
+3f6f63be-1d0d-4fc9-be99-0cfc46ab5eb0
+00:29:44,550 --> 00:29:46,050
+Victor Henrique Aguiar Gutierrez Duarte: Yeah, we built our own.
+
+3e386629-ffdc-4511-a059-5c07aa064901
+00:29:47,290 --> 00:29:52,650
+Paolo Patrizio Urzi: Yeah, we partnered with Microsoft. So Microsoft has literally co-built,
+
+de178d2d-133a-4249-93ba-6e6fd83b73f3
+00:29:56,000 --> 00:30:25,540
+Paolo Patrizio Urzi: in a sense that it actually helps you build stuff. So if you want to build the training, if you want to check the reporting or build reports, for example, Factorial One can actually do these things for you, including on the recruitment side as well so if you want to screen like four calls five calls of people that are going to be coming in it will automatically screen those calls check the cvs and put all the information into the recruitment side and then you can do the things that actually are more important in the company like performance reviews managing the payroll etc yeah so
+
+9a38c8ce-b6a4-4a91-8b02-a7be42fcfc76
+00:30:25,540 --> 00:31:11,380
+Elani Swanepoel: um for me and him it's quite important that we have things like this. Like you hear, I say we do a lot of manual HRN stuff, but the thing is because the company broke into four pieces, and we had to build up workshops physically, and the owner of the company does not believe in any debt, so he builds cash. We actually were stopped in terms of, you know, appointing new staff, especially for us in the office. So we took upon a lot of manual work ourselves as managers. So this is something that can help us in future as well. I don't know if you agree, Werner?
+
+9ec6795a-6bd9-476a-b0b7-ff614cf74183
+00:31:11,660 --> 00:31:13,100
+Werner: I agree 100%.
+
+f4bd41e7-b2f7-4f46-b99b-a38955f3bf4e
+00:31:15,879 --> 00:31:32,660
+Victor Henrique Aguiar Gutierrez Duarte: So what success looks like for you in one year for now using like Factorial? And where do you want to be? Where do you want to be like in the company one year from now? I know that is a cliche question, but I want to understand what should be different. What would be different with Factorial?
+
+6379535c-6ac0-4e2c-beaf-f705ab787dfd
+00:31:33,680 --> 00:32:27,000
+Elani Swanepoel: Well, the thing for us, for me, why I actually asked you guys to let me know, to hear more about this, is that we've got an owner of the four companies. He is a very, if I can, for lack of a better explanation, he's like a silent partner. So we see him maybe once a year. months a month but he is very involved as well so with this he can also then if he has this on his phone he can also the communication can be instant and you know for me it's to make sure that we are like you we have an integrated system at the end of the day make better choices yeah willing to see where we are.
+
+eefac689-ab01-4ceb-a65d-95eff4c839c0
+00:32:28,860 --> 00:32:34,700
+Victor Henrique Aguiar Gutierrez Duarte: Amazing, amazing, amazing answer. Thank you for that. And Werner, for you, what do you expect?
+
+2f907a8d-ed0b-41f8-b7ba-14592533561b
+00:32:35,760 --> 00:33:28,770
+Werner: Well, I mean, I can only talk to myself, but I guess we need to do a better reporting for the owner as well. I mean, if this works out as you explain to us now, I mean, we can keep proper reporting, you know, we're at this stage. most of our time is just making sure that all our manual things are you know pulled in and everything is just ready for monthly you understand what i'm saying where with this program we can properly go through everything and see what's where we're spending money and where we're costing and which which department is not making money or which department is you know costing us a lot of money You know, the proper reporting. So, yeah, that will help us. I mean, if this is set up, I mean, salaries and stuff like that will take us a few
+
+8ebef9f7-416c-4c64-83d9-fc360ab26e72
+00:33:28,770 --> 00:33:29,210
+Werner: hours.
+
+7e05d211-4f16-4b5a-b2d8-d90c381d46df
+00:33:29,850 --> 00:33:59,480
+Elani Swanepoel: I'm just looking. We do comply to equity and, Agana, you're going into a BE phase as well. Yeah. So in the next year, they... they are going into a BE certificate phase where they have consultants coming in to do that for them so I see here as well they've got a lot of how can I say statistics in your payroll that you need to and does that fit into the system I don't know if you can maybe
+
+43659ccd-762e-43bc-a90e-d58f3d75e6fd
+00:34:01,179 --> 00:34:02,340
+Victor Henrique Aguiar Gutierrez Duarte: So I was going to
+
+12222381-d18f-4077-84d3-155cf363b217
+00:34:02,340 --> 00:34:26,780
+Paolo Patrizio Urzi: chime in here. So all of the compliances of the countries we're working with, like South Africa, Zambia, Mozambique, you know, Kenya, etc., we have the policies already set in the tutorial for those. So, for example, for South Africa, we have the reporting that you can build within the platform. It's not like we have a template, for example. It's something that will be onboard you, will help you build the reporting within the platform. But it's already there.
+
+1496ed3c-c12d-46e5-8f8d-68bc0c5f30a7
+00:34:28,679 --> 00:34:54,350
+Elani Swanepoel: and especially with the training and all of that Vane. going into your BE because they're currently now within the year that they need to BE goes back once a year if you want to get your certificate so they're in that year now so this will help us to actually a
+
+2f124411-ba02-4f39-95dc-9623825f09dc
+00:34:54,350 --> 00:34:56,110
+Werner: report
+
+bbc6e4cf-d528-4ac1-9cc8-d40984dd2634
+00:34:56,110 --> 00:35:00,070
+Elani Swanepoel: accurate report and make sure that we spend when we need to
+
+b09fe95f-243b-465b-ace7-9e126fd09281
+00:35:02,510 --> 00:35:08,850
+Paolo Patrizio Urzi: this goes all the way to be level eight as well hey so all the levels of awesome
+
+8ec44f29-783e-482a-8786-c235a6b85ee9
+00:35:08,850 --> 00:35:09,830
+Elani Swanepoel: nice
+
+7f946b9b-26f4-4d3a-a44b-6cef1d507d1a
+00:35:09,830 --> 00:35:11,010
+Werner: amazing
+
+7479c246-46bf-4741-8140-52fa876ac72e
+00:35:11,010 --> 00:35:15,610
+Elani Swanepoel: you've seen van and you've got the attison sort of month as well yeah
+
+2bb5f3d0-4732-45ee-b29f-d66a60df9726
+00:35:15,610 --> 00:35:18,130
+Werner: so
+
+cd9aea39-3d8d-45f4-bfc8-cd03114f5450
+00:35:18,130 --> 00:35:30,830
+Elani Swanepoel: this is nothing so all this data that's pulling in can be pulled in from a employee so it's nothing for us to then have a pack of this let me show you actually we're currently
+
+51b12057-b698-4af4-981f-803f1f6f41a8
+00:35:33,840 --> 00:35:36,180
+Elani Swanepoel: so this right
+
+e5e68d3c-5a3e-49dd-a47c-b29c6d512661
+00:35:36,180 --> 00:35:40,760
+Victor Henrique Aguiar Gutierrez Duarte: it looks and this
+
+cc671f8f-9d37-440b-b978-ee89c5367ec1
+00:35:40,760 --> 00:35:59,040
+Elani Swanepoel: is my leave form signed up so all of this needs to be i need to one by one work through this and put it in so like like you're saying every all this information gets approved and in the system and is ready for me by end of month to process my payroll
+
+8159c9b6-18e6-46b2-b2bc-363cb04b5bf5
+00:35:59,470 --> 00:36:00,470
+Paolo Patrizio Urzi: Yeah, exactly.
+
+32ac1d39-056c-4517-925b-8b2495cf7d89
+00:36:00,990 --> 00:36:03,010
+Victor Henrique Aguiar Gutierrez Duarte: That's the point. It would be automatic.
+
+d572c472-4315-44bf-bb12-c5e7951da830
+00:36:04,510 --> 00:36:12,590
+Paolo Patrizio Urzi: Exactly, automatic as well. And out of curiosity, do you store any of these into Excel, into Word? Do you have digital copies of all of these things?
+
+f0a3211d-b807-40ba-8b32-f1eb8a14e76e
+00:36:13,430 --> 00:36:51,130
+Elani Swanepoel: Sure, we do. Well, we do have it. Let me just tell you, when I started with the company about 10 years ago, I still did their clockings manually. So I have implemented the clocking system for them. One day when a guy was sitting in front of me and filling in his manual timesheet from today into the history, I said, no, we can't work like that. I can't even remember what I did yesterday. So how can I remember what I did a month ago?
+
+78e75746-8b86-4e05-8b52-f7c4119c0c9b
+00:36:51,670 --> 00:37:27,950
+Paolo Patrizio Urzi: yeah of course now the only reason why i asked that before i let victor go into the reporting and what ai has pulled up is because you can import and export documents well pretty much everything from in factorial so if you have like sql imports or excel imports for example you can immediately import that into the system and as long as the information is correct in the excel sheets like the name the number for example there data etc then it will populate all of that into factorial immediately so it's not necessarily that you have to do it one by one if you have a sheet you put it in import it and it does it automatically is
+
+2034783e-ae56-485e-98f2-399c6d9f91fb
+00:37:27,950 --> 00:37:47,420
+Elani Swanepoel: this is there prefixes in terms of what factorial needs for us to import so for instance with our payroll we already have a specific um you know employee codes all of that will that change or Can Factorial work with the daughter that you currently have?
+
+46a4585b-11fe-4d81-92a1-fef3e416719f
+00:37:47,720 --> 00:38:28,060
+Victor Henrique Aguiar Gutierrez Duarte: Actually, the nice thing is you can keep your current codes of your employees and you can use your codes inside Factorial. It's not a problem. Okay. And yeah, actually, Factora doesn't behave like a complex ERP. The medium time for onboarding Factora in a company with your size is more or less 45 days until 60 days. Not more than that. And not hidden fees. We are not charging for more hours if we are not able to make it. So you do receive like the amount of hours that you need to be sure. the factory will be fully implemented.
+
+9c4be29a-5b05-4c74-8c34-99aa573e5022
+00:38:29,220 --> 00:38:51,320
+Elani Swanepoel: Okay. Right. Okay. So if I would now need to go and pitch to the owner, what type of documentation can I give to him so he can know what it costs and how it is going to be implemented in the JAV system.
+
+839caba1-969f-4c27-a64a-48a1a3dbd802
+00:38:52,260 --> 00:39:27,510
+Victor Henrique Aguiar Gutierrez Duarte: Okay, actually, with everything that you said, that you both said, we can make a return on investment kind of picture because getting from a manual work to a system, we can actually make some math here. And to propose, okay, we are about to save this amount of time, this amount of money, this kind of perks and benefits in general for a decision maker like a CEO. So more about numbers. But I could still share with you more about the modules, the features, some short videos for you to see if you have any kind of doubt. And how does this sound to you?
+
+fac8e771-2a92-41ab-9924-c2ccd39e9496
+00:39:28,460 --> 00:39:29,780
+Elani Swanepoel: Yeah, sounds good.
+
+386751bf-e707-405c-b09d-153e5e0f926e
+00:39:30,680 --> 00:39:44,360
+Victor Henrique Aguiar Gutierrez Duarte: Sounds perfect. And just a question about deadlines. I know that you probably don't have a deadline, but when do you expect to have a system running? Did you think about this?
+
+fdb6c8d9-893d-42c9-8f13-67571a801368
+00:39:44,960 --> 00:40:30,640
+Elani Swanepoel: Well, it will definitely be something towards, for now, it is on month end, so we would need to start capturing well start a new system from a like a beginning of a month going ending or financially in a system I prefer that not to move within a financial month in the middle so if we can have information so that we can go and decide on this then we can work towards month of start month into a new month to capture all the information in there and then end of that month start working the reports and whatever needs to integrate with other systems.
+
+03d39983-0aba-4af7-85a9-80d3b6e6dd75
+00:40:32,120 --> 00:40:43,780
+Victor Henrique Aguiar Gutierrez Duarte: Okay, so if factorial seems like a good option and if the price fits, of course, is very important, were you able to begin in the next month or two months from now?
+
+8d8f0066-f680-4745-9a71-22aa41c4b0d4
+00:40:44,880 --> 00:40:47,360
+Elani Swanepoel: Within a month, yes.
+
+bbb3f457-a0be-49f0-9d36-1d1d4a6e6764
+00:40:47,780 --> 00:41:15,050
+Victor Henrique Aguiar Gutierrez Duarte: Within a month. yes okay amazing yeah it's a nice time to work together to share some questions if you have of course to make another appointment to clarify another doubts so perfect i have my homework to do i'm gonna send you by the first day of the morning uh your proposal or maybe until the end of today and yeah we remain attentive uh to the next meeting if you have any doubts and yeah i think this is the best way to make it what do you think 100
+
+e81a53f6-409f-4f47-bf19-0870fd27ae03
+00:41:15,050 --> 00:41:15,970
+Elani Swanepoel: 100
+
+e07026dc-4c04-4cdd-8b6b-15ff2cf24781
+00:41:15,970 --> 00:41:16,770
+Werner: thank you
+
+4dbe7ce9-38bc-422a-b541-248a063b5301
+00:41:17,529 --> 00:41:47,680
+Paolo Patrizio Urzi: Yeah, Victor will personalize something based on this meeting because as you can see, we have a factorial system. So it's our AI system, which basically tracks the call. So all of the points that are discussed, all the pain points and all the things specific in the system, Victor is going to tailor that specifically for the CEO to see in regards to investment, in regards to saving time for both Elaine and Werner. And then at least that will be more of a comprehensive view for him to actually see where can this return benefit the company as a whole.
+
+be694954-cddc-451c-a854-cc3b81463d1c
+00:41:48,480 --> 00:41:50,780
+Elani Swanepoel: Yes, 100%. Okay, perfect.
+
+6fd4f8e3-e409-4b10-bf27-51b31aef4afe
+00:41:51,940 --> 00:42:09,060
+Paolo Patrizio Urzi: Going forward, once Victor says that, if you need to set up another meeting, we can. If by any chance you guys need me to meet in person, I'm more than happy. But I know I see you in Gauten, you're here. And I'm also happy to fly over to Cape Town. I've got some clients involved.
+
+22fccad8-5b6c-442f-889a-75b7e9f967fb
+00:42:09,660 --> 00:42:16,400
+Elani Swanepoel: Yeah, I'll let you know when the weather is awesome, yeah. I see the sun is coming out for us, so no, it's beautiful.
+
+e6fe3085-e7cd-43c0-bc7c-1f3aa62ce3ee
+00:42:18,500 --> 00:42:37,510
+Victor Henrique Aguiar Gutierrez Duarte: Last question, last question. I usually like to schedule like a quick follow-up, but I do like to give you freedom to think without any kind of pressure. what do you think about maybe catching up the next friday it's like seven days and a half to see the presentation next week
+
+bac9d44a-d2b4-4a2c-b1fe-c1b71294f4c2
+00:42:37,510 --> 00:42:51,710
+Elani Swanepoel: friday yeah we've got a meeting on monday with the owner so um definitely we can then speak on friday we can catch up amazing
+
+b097616b-1a38-4e11-8038-8b26e41eb63d
+00:42:51,710 --> 00:42:58,260
+Victor Henrique Aguiar Gutierrez Duarte: i like that so perfect i don't have any any questions i really appreciated your time here with us today yes
+
+73222f0e-28d9-46e4-9200-c66e3638be3b
+00:42:58,260 --> 00:43:00,580
+Elani Swanepoel: thank you so much thank
+
+c639be90-1972-4f04-83a7-dc6af176ce16
+00:43:00,580 --> 00:43:02,200
+Werner: you
+
+ab41712b-1ae8-4683-93d0-3e8645ca864a
+00:43:02,200 --> 00:43:02,420
+Ashley Pillay: guys
