@@ -16,7 +16,7 @@
 
 This Statement of Work defines the scope, deliverables, assumptions, and responsibilities for the implementation of **Factorial HR** across a group of **four (4) affiliated South African legal entities** operating in engineering, steel manufacturing, production, mining, and facility service operations.
 
-The Client currently manages approximately **100 employees** across multiple provinces (including Cape Town and Gauteng) using disconnected systems: **Pastel Payroll**, **Sage 200 Evolution**, **Uniclocks** (facial-recognition time clocks), and largely **manual HR and payroll processes**. There is no integrated HR platform in place today.
+The Client currently manages approximately **100 employees** across multiple provinces (including Cape Town and Gauteng) using disconnected systems: **Pastel Payroll**, **Sage 200 Evolution**, **Uniclox** (facial-recognition time clocks), and largely **manual HR and payroll processes**. There is no integrated HR platform in place today.
 
 Factorial HR will centralise employee lifecycle management, time and attendance, leave management, document compliance, training tracking, and payroll data preparation—with a **native integration to Sage 50 Cloud Payroll**—to reduce manual effort, improve reporting for ownership, and support ISO and B-BBEE compliance activities.
 
@@ -52,7 +52,7 @@ Factorial HR will centralise employee lifecycle management, time and attendance,
 |----------|------------------|-------------------|
 | Payroll processing | Pastel Payroll (Sage) | Standalone |
 | Finance / costing | Sage 200 Evolution | Standalone |
-| Time & attendance | Uniclocks (facial recognition hardware) | Not integrated with HR or payroll |
+| Time & attendance | Uniclox (facial recognition hardware) | Not integrated with HR or payroll |
 | HR records & contracts | Manual / paper / server files | No central HRIS |
 | Leave & time-off requests | Paper forms, manual processing | No system |
 | Onboarding & training | Manual tracking | No automated workflows |
@@ -62,7 +62,7 @@ Factorial HR will centralise employee lifecycle management, time and attendance,
 ### 3.3 Key Pain Points (as stated in discovery)
 
 1. **Manual data transfer** — Information is copied and pasted between platforms that do not communicate.
-2. **Time sheet processing** — Uniclocks data is printed and manually re-entered for payroll.
+2. **Time sheet processing** — Uniclox data is printed and manually re-entered for payroll.
 3. **Document fragmentation** — HR documents stored physically and on servers; difficult to audit (e.g., recent HR resignation triggered ISO document review with customer Howden).
 4. **Manager overload** — Senior finance staff (Elani, Werner) absorb manual HR/payroll work due to limited back-office headcount.
 5. **Multi-entity inconsistency** — Four businesses require harmonised HQ policies and transparent floor-level processes.
@@ -76,7 +76,7 @@ Factorial HR will centralise employee lifecycle management, time and attendance,
 | # | Objective | Success Indicator |
 |---|-----------|-------------------|
 | O1 | Replace manual HR administration with a single cloud HR platform | ≥90% of leave, documents, and time data processed in Factorial |
-| O2 | Integrate time tracking with payroll preparation | Elimination of printed Uniclocks → manual payroll re-entry |
+| O2 | Integrate time tracking with payroll preparation | Elimination of printed Uniclox → manual payroll re-entry |
 | O3 | Enable one-click payroll sync to Sage 50 Cloud | Compensation data synced natively without duplicate entry |
 | O4 | Standardise HR processes across four entities | Unified policies, workflows, and employee experience |
 | O5 | Support compliance reporting (ISO, B-BBEE, bargaining council) | Exportable reports and audit-ready document repository |
@@ -97,7 +97,7 @@ Factorial HR will centralise employee lifecycle management, time and attendance,
 | D1.2 | Entity & org-structure mapping (4 legal entities, departments, sites) |
 | D1.3 | Employee data audit (codes, headcount, contracts, active/inactive) |
 | D1.4 | Shift pattern documentation (mines, drivers, production, future night shifts) |
-| D1.5 | Integration design: Uniclocks compatibility assessment, Sage 50 Cloud Payroll mapping |
+| D1.5 | Integration design: Uniclox compatibility assessment, Sage 50 Cloud Payroll mapping |
 | D1.6 | Compliance requirements register (ISO, B-BBEE levels 1–8, bargaining council) |
 | D1.7 | Signed Solution Design Document (SDD) |
 
@@ -108,7 +108,7 @@ Factorial HR will centralise employee lifecycle management, time and attendance,
 | **Core HR & Employee Records** | Employee profiles, custom employee codes (retain existing codes), multi-entity structure, org chart |
 | **Document Management** | Digital employee folders, e-signatures (audit-compliant), document expiry alerts (e.g., licences, certifications) |
 | **Onboarding Workflows** | Custom task sequences per entity/role; personal data collection; manager/IT assignment tasks |
-| **Time & Attendance** | Clock-in/out rules; integration assessment with existing Uniclocks devices; mobile clocking; facial recognition via tablet/mobile where applicable; shift categories (mines, drivers, production) |
+| **Time & Attendance** | Clock-in/out rules; integration assessment with existing Uniclox devices; mobile clocking; facial recognition via tablet/mobile where applicable; shift categories (mines, drivers, production) |
 | **Shift Scheduling** | Shift templates, AI-assisted scheduling, publish & notify employees (push, email, in-app) |
 | **Leave & Absences** | Leave policies, accrual rules, multi-level approval workflows (manager → finance) |
 | **Training & Certifications** | Training catalogue, mandatory courses, expiry notifications (30-day advance alerts), certificate generation |
@@ -144,7 +144,7 @@ The following items are **explicitly excluded** unless added via a Change Reques
 
 - Replacement of **Sage 200 Evolution** as the ERP / costing system
 - Full replacement of **Pastel Payroll** as the payroll engine *(Factorial feeds payroll; Sage 50 Cloud remains system of record for payroll execution)*
-- Hardware procurement (Uniclocks devices, tablets, kiosks) — Client responsibility unless separately quoted
+- Hardware procurement (Uniclox devices, tablets, kiosks) — Client responsibility unless separately quoted
 - Bargaining council system integration *(manual export/reporting only)*
 - Recruitment module *(not discussed as priority; optional add-on)*
 - Performance review module *(Client indicated this is new/not current priority; one-on-ones preferred path)*
@@ -187,7 +187,7 @@ The following items are **explicitly excluded** unless added via a Change Reques
                     └─────────────────────┘
 
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│  Uniclocks   │────▶│  Factorial   │     │ Sage 200     │
+│  Uniclox   │────▶│  Factorial   │     │ Sage 200     │
 │  (T&A HW)    │     │  Time Module │     │ Evolution    │
 │  Integration │     │              │     │ (Finance ERP)│
 │  TBC         │     └──────────────┘     │  No direct   │
@@ -198,7 +198,7 @@ The following items are **explicitly excluded** unless added via a Change Reques
 | Integration | Direction | Method | Owner |
 |-------------|-----------|--------|-------|
 | Sage 50 Cloud Payroll | Factorial → Sage | Native connector (compensation sync) | Factorial + Exponent |
-| Uniclocks | Uniclocks → Factorial | Compatibility assessment required *(device model TBC)* | Factorial Technical |
+| Uniclox | Uniclox → Factorial | Compatibility assessment required *(device model TBC)* | Factorial Technical |
 | Sage 200 Evolution | — | Out of scope (manual journal process may continue) | Client |
 | Microsoft 365 | Optional | SSO / calendar *(if required)* | TBC |
 | Bargaining Council | Export only | CSV / report export | Client |
@@ -234,7 +234,7 @@ The following items are **explicitly excluded** unless added via a Change Reques
 | Day-to-day project coordination | Elani Swanepoel |
 | Provincial operations & payroll validation | Werner |
 | Provide accurate employee master data (Excel/CSV) | Elani / Werner |
-| Confirm Uniclocks device models and access | Werner |
+| Confirm Uniclox device models and access | Werner |
 | Define shift rules, leave policies, approval hierarchies | Elani + site managers |
 | UAT participation and sign-off | Elani, Werner |
 | Employee change management communications | Elani |
@@ -270,7 +270,7 @@ The following items are **explicitly excluded** unless added via a Change Reques
 | DEL-02 | Configured Factorial tenant (4 entities) | SaaS platform | Client admins |
 | DEL-03 | Employee data import (validated) | Platform | Client |
 | DEL-04 | Sage 50 Cloud integration (live) | Technical | Client finance team |
-| DEL-05 | Uniclocks integration assessment report | PDF | Client |
+| DEL-05 | Uniclox integration assessment report | PDF | Client |
 | DEL-06 | Administrator training completion | Certificate / record | Elani, Werner |
 | DEL-07 | Manager training completion | Certificate / record | Site managers |
 | DEL-08 | Employee quick-start guides | PDF | All employees |
@@ -322,7 +322,7 @@ Factorial will provide a personalised **ROI analysis** for the Business Owner, q
 
 1. Client will provide complete and accurate employee data within **10 business days** of kick-off.
 2. Existing employee codes from Pastel Payroll can be retained in Factorial.
-3. Uniclocks hardware is compatible with Factorial integrations, **or** Client accepts alternative clocking methods (mobile/tablet facial recognition).
+3. Uniclox hardware is compatible with Factorial integrations, **or** Client accepts alternative clocking methods (mobile/tablet facial recognition).
 4. Sage 50 Cloud Payroll is the payroll system of record; Factorial will not execute payroll runs.
 5. Client IT can provide network access for any on-site clocking devices.
 6. All four legal entities will operate under a single Factorial tenant with entity-level segmentation.
@@ -338,7 +338,7 @@ Factorial will provide a personalised **ROI analysis** for the Business Owner, q
 |------------|-------|-----------------|
 | Signed contract & deposit | Client / Factorial | Project cannot start |
 | Employee master data file | Client | Migration delayed |
-| Uniclocks device specification | Werner | Time module design blocked |
+| Uniclox device specification | Werner | Time module design blocked |
 | Sage 50 Cloud admin access for integration | Client + Exponent | Payroll sync blocked |
 | Shift rule documentation | Client | Incorrect time configuration |
 | Owner approval | Business Owner | No go-live authorisation |
@@ -402,7 +402,7 @@ The project will be considered **successfully delivered** when:
 | 2 | Internal review with Business Owner | Elani Swanepoel | Monday *(per call)* |
 | 3 | Follow-up call — questions & proposal review | All parties | Friday *(per call)* |
 | 4 | Confirm legal entity names and module selection | Client | Before contract |
-| 5 | Confirm Uniclocks device models | Werner | Before technical design |
+| 5 | Confirm Uniclox device models | Werner | Before technical design |
 | 6 | Execute SOW + Order Form | Client + Factorial | Upon owner approval |
 | 7 | Kick-off implementation | All parties | Within 1 month of approval |
 
@@ -428,7 +428,7 @@ The project will be considered **successfully delivered** when:
 | Core HR & Employee Portal | Yes | **Yes** | Foundation for all entities |
 | Document Management & E-Sign | Yes | **Yes** | ISO audit requirement |
 | Onboarding Workflows | Yes | **Yes** | Replace manual onboarding |
-| Time & Attendance | Yes | **Yes** | Replace manual Uniclocks export |
+| Time & Attendance | Yes | **Yes** | Replace manual Uniclox export |
 | Shift Scheduling | Yes | **Yes** | Including future night shifts |
 | Leave & Absences | Yes | **Yes** | Replace paper forms |
 | Training & Certifications | Yes | **Yes** | Expiry alerts; B-BBEE support |
@@ -448,7 +448,7 @@ The project will be considered **successfully delivered** when:
 |------|---------------------|
 | Legal names of all four registered entities | Client |
 | Exact active employee headcount per entity/site | Client |
-| Uniclocks hardware model(s) and firmware | Werner |
+| Uniclox hardware model(s) and firmware | Werner |
 | Sage 50 Cloud Payroll version and admin credentials process | Client + Exponent |
 | Bargaining council reporting fields required | Client |
 | B-BBEE certificate target level and consultant requirements | Client |

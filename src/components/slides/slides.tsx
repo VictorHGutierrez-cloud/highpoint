@@ -182,7 +182,7 @@ export const slides: SlideData[] = [
               <p className="text-[16px] opacity-75 uppercase tracking-widest mb-4">Until now</p>
               <div className="space-y-4">
                 {[
-                  "UniClocks printed and re-keyed manually",
+                  "Uniclox printed and re-keyed manually",
                   "Elani & Werner doing HR on top of finance",
                   "No leave system — paper forms only",
                   "Documents on servers and filing cabinets",
@@ -200,7 +200,7 @@ export const slides: SlideData[] = [
                   "One cloud HR platform across four entities",
                   "Payroll prep in hours — not days",
                   "Owner visibility from any mobile device",
-                  "Native Sage 50 sync · UniClocks compatible",
+                  "Native Sage 50 sync · Uniclox compatible",
                 ].map((item) => (
                   <p key={item} className="text-[20px] opacity-90 flex items-center gap-3">
                     <Check size={18} className="opacity-70 shrink-0" /> {item}
@@ -264,7 +264,7 @@ export const slides: SlideData[] = [
   {
     id: "context-tools",
     title: "Current Tools",
-    summary: "Pastel Payroll, Sage 200, UniClocks and paper — where each one falls short",
+    summary: "Pastel Payroll, Sage 200, Uniclox and paper — where each one falls short",
     icon: <AlertTriangle size={24} />,
     gradient: "from-[hsl(37,80%,25%)] to-[hsl(37,60%,12%)]",
     bg: "neutral",
@@ -321,7 +321,7 @@ export const slides: SlideData[] = [
                 <Fingerprint size={24} className="opacity-70" />
               </div>
               <div>
-                <h3 className="text-[26px] font-medium">UniClocks</h3>
+                <h3 className="text-[26px] font-medium">Uniclox</h3>
                 <p className="text-[16px] opacity-75 uppercase tracking-widest">Time & attendance</p>
               </div>
             </div>
@@ -390,7 +390,7 @@ export const slides: SlideData[] = [
             </div>
             <h3 className="text-[28px] font-medium mb-3">Copy-paste between systems</h3>
             <p className="text-[21px] opacity-70 leading-relaxed">
-              UniClocks → spreadsheet → Pastel. Sage 200 journals entered separately. Every platform is a silo — and senior staff are the glue holding it together.
+              Uniclox → spreadsheet → Pastel. Sage 200 journals entered separately. Every platform is a silo — and senior staff are the glue holding it together.
             </p>
           </div>
           <div className="border border-white/20 p-10">
@@ -428,12 +428,12 @@ export const slides: SlideData[] = [
           {[
             {
               title: "Manual timesheets",
-              impact: "Printed from UniClocks, re-keyed every month",
+              impact: "Printed from Uniclox, re-keyed every month",
               desc: "Clocking data exists digitally — but payroll still depends on someone printing and typing it into Pastel.",
             },
             {
               title: "Disconnected systems",
-              impact: "Pastel · Sage 200 · UniClocks · paper",
+              impact: "Pastel · Sage 200 · Uniclox · paper",
               desc: "Nothing talks to anything. Senior finance staff copy-paste between platforms that were never designed to connect.",
             },
             {
@@ -742,10 +742,10 @@ export const slides: SlideData[] = [
     ),
   },
 
-  // ─── 12. UNICLOCKS ──────────────────────────────────────
+  // ─── 12. UNICLOX ──────────────────────────────────────
   {
-    id: "uniclocks",
-    title: "UniClocks Compatibility",
+    id: "uniclox",
+    title: "Uniclox Compatibility",
     summary: "Facial recognition on site — mobile, tablet or existing hardware. Shift rules for mines, drivers and production",
     icon: <Fingerprint size={24} />,
     gradient: "from-[hsl(347,70%,18%)] to-[hsl(184,60%,12%)]",
@@ -759,7 +759,7 @@ export const slides: SlideData[] = [
             <div className="w-12 h-12 mx-auto mb-3 border border-white/25 flex items-center justify-center">
               <Fingerprint size={24} className="opacity-80" />
             </div>
-            <p className="text-[22px] font-medium mb-1">UniClocks</p>
+            <p className="text-[22px] font-medium mb-1">Uniclox</p>
             <p className="text-[14px] opacity-80 uppercase tracking-[0.2em] mb-3">Facial Recognition</p>
             <div className="space-y-1.5 text-left">
               {["Existing site hardware", "Mobile & tablet clocking", "Per-site shift categories", "Mines · drivers · production"].map((item) => (
@@ -850,7 +850,7 @@ export const slides: SlideData[] = [
               <Database size={20} className="opacity-70" /> No new hardware required
             </h3>
             <p className="text-[16px] opacity-70 leading-relaxed mb-4">
-              We assess your UniClocks model during onboarding. Any phone or tablet with a camera can also serve as a clocking station.
+              We assess your Uniclox model during onboarding. Any phone or tablet with a camera can also serve as a clocking station.
             </p>
             <p className="text-[15px] opacity-75 border-t border-white/15 pt-3">
               Goal: eliminate printed timesheets entirely — data flows digitally to payroll.
@@ -936,7 +936,7 @@ export const slides: SlideData[] = [
             <div className="px-10 py-6 border-b border-foreground/20 font-medium opacity-60 text-center">Today (manual stack)</div>
             <div className="px-10 py-6 border-b border-foreground/20 font-medium opacity-60 text-center">With Factorial</div>
             {[
-              { c: "Timesheet processing", s: "Print UniClocks → re-key", f: "Digital flow to payroll" },
+              { c: "Timesheet processing", s: "Print Uniclox → re-key", f: "Digital flow to payroll" },
               { c: "Leave management", s: "Paper forms", f: "Self-service + approvals" },
               { c: "Document compliance", s: "Files & servers", f: "Digital folders + e-sign" },
               { c: "Payroll preparation", s: "Multi-day manual effort", f: "Hours, not days" },
@@ -1013,7 +1013,7 @@ export const slides: SlideData[] = [
               {[
                 "Core HR, time, leave, documents & training",
                 "Native Sage 50 Cloud Payroll sync",
-                "UniClocks compatibility assessment",
+                "Uniclox compatibility assessment",
                 "Factorial One AI reports",
                 "Mobile app for all employees",
               ].map((item) => (
@@ -1045,7 +1045,7 @@ export const slides: SlideData[] = [
         </SlideSubtitle>
         <div className="grid grid-cols-4 gap-6 mt-10">
           {[
-            { phase: "Phase 1", weeks: "Weeks 1–2", title: "Discovery & design", items: ["Kick-off with Elani, Werner & Exponent", "Map 4 entities & org structure", "UniClocks & Sage 50 integration design", "ISO / B-BBEE requirements register"] },
+            { phase: "Phase 1", weeks: "Weeks 1–2", title: "Discovery & design", items: ["Kick-off with Elani, Werner & Exponent", "Map 4 entities & org structure", "Uniclox & Sage 50 integration design", "ISO / B-BBEE requirements register"] },
             { phase: "Phase 2", weeks: "Weeks 2–5", title: "Configuration", items: ["Employee import & custom codes", "Shift rules: mines, drivers, production", "Leave policies & approval workflows", "Sage 50 native sync setup"] },
             { phase: "Phase 3", weeks: "Weeks 5–7", title: "Testing & UAT", items: ["Time → compensation → Sage SIT", "UAT with Elani, Werner & managers", "Optional parallel payroll run", "Signed UAT acceptance"] },
             { phase: "Phase 4", weeks: "Weeks 7–8", title: "Training & go-live", items: ["Admin training (2 sessions)", "Manager training & employee comms", "Go-live at month boundary", "30-day hypercare support"] },
