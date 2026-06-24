@@ -94,12 +94,12 @@ const INJECTED_STYLES = `
   }
 
   .widget-depth {
-      background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+      background: linear-gradient(180deg, rgba(255, 53, 94, 0.14) 0%, rgba(255, 53, 94, 0.05) 100%);
       box-shadow: 
-          0 10px 20px rgba(0,0,0,0.3),
-          inset 0 1px 1px rgba(255,255,255,0.05),
-          inset 0 -1px 1px rgba(0,0,0,0.5);
-      border: 1px solid rgba(255,255,255,0.03);
+          0 10px 20px rgba(255, 53, 94, 0.15),
+          inset 0 1px 1px rgba(255, 53, 94, 0.2),
+          inset 0 -1px 1px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255, 53, 94, 0.35);
   }
 
   .floating-ui-badge {
@@ -378,7 +378,7 @@ export function CinematicHero({
                 <div className="hardware-btn absolute -right-[3px] top-[180px] w-[3px] h-[60px] rounded-r-sm" />
 
                 {/* Screen content */}
-                <div className="absolute inset-[7px] rounded-[34px] md:rounded-[44px] overflow-hidden bg-gradient-to-b from-[hsl(347,60%,12%)] to-[hsl(347,80%,6%)]">
+                <div className="absolute inset-[7px] rounded-[34px] md:rounded-[44px] overflow-hidden bg-gradient-to-b from-[#FF355E]/25 via-[hsl(347,70%,14%)] to-[hsl(347,80%,8%)]">
                   {/* Dynamic island */}
                   <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[90px] h-[28px] bg-black rounded-full z-30" />
 
@@ -388,15 +388,15 @@ export function CinematicHero({
                   {/* App content */}
                   <div className="relative z-10 p-5 pt-14 h-full flex flex-col">
                     {/* Header */}
-                    <div className="phone-widget mb-4">
-                      <p className="text-white/40 text-[10px] uppercase tracking-widest">Factorial HR</p>
+                    <div className="phone-widget mb-4 border border-[#FF355E]/30 rounded-xl px-3 py-2 bg-[#FF355E]/10">
+                      <p className="text-[#FF355E] text-[10px] uppercase tracking-widest font-semibold">Factorial HR</p>
                       <p className="text-white text-base font-semibold mt-1">Dashboard</p>
                     </div>
 
                     {/* Progress ring widget */}
                     <div className="phone-widget widget-depth rounded-2xl p-4 mb-3 flex items-center gap-4">
                       <svg width="64" height="64" viewBox="0 0 140 140">
-                        <circle cx="70" cy="70" r="64" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="12" />
+                        <circle cx="70" cy="70" r="64" fill="none" stroke="rgba(255, 53, 94, 0.2)" strokeWidth="12" />
                         <circle
                           className="progress-ring"
                           cx="70" cy="70" r="64"
@@ -406,7 +406,7 @@ export function CinematicHero({
                         />
                       </svg>
                       <div>
-                        <p className="text-white/40 text-[10px] uppercase tracking-wider">Assiduidade</p>
+                        <p className="text-[#FF355E]/80 text-[10px] uppercase tracking-wider font-medium">Attendance</p>
                         <p className="text-white text-xl font-bold">98%</p>
                       </div>
                     </div>
@@ -414,21 +414,21 @@ export function CinematicHero({
                     {/* Metrics row */}
                     <div className="phone-widget grid grid-cols-2 gap-2 mb-3">
                       <div className="widget-depth rounded-xl p-3">
-                        <p className="text-white/40 text-[9px] uppercase tracking-wider">Presentes</p>
-                        <p className="text-white text-lg font-bold">487</p>
+                        <p className="text-[#FF355E]/80 text-[9px] uppercase tracking-wider font-medium">On site</p>
+                        <p className="text-white text-lg font-bold">97</p>
                       </div>
                       <div className="widget-depth rounded-xl p-3">
-                        <p className="text-white/40 text-[9px] uppercase tracking-wider">Ausências</p>
-                        <p className="text-[#FF355E] text-lg font-bold">13</p>
+                        <p className="text-[#FF355E]/80 text-[9px] uppercase tracking-wider font-medium">Absences</p>
+                        <p className="text-[#FF355E] text-lg font-bold">3</p>
                       </div>
                     </div>
 
                     {/* Team widget */}
                     <div className="phone-widget widget-depth rounded-xl p-3">
-                      <p className="text-white/40 text-[9px] uppercase tracking-wider mb-2">Equipas</p>
-                      <div className="flex items-center gap-2">
-                        {["Produção", "Admin", "Logística"].map((team) => (
-                          <span key={team} className="text-[9px] text-white/70 bg-white/5 rounded-full px-2 py-1">
+                      <p className="text-[#FF355E]/80 text-[9px] uppercase tracking-wider font-medium mb-2">Teams</p>
+                      <div className="flex items-center gap-2 flex-wrap">
+                        {["Cape Town", "Mining", "Production"].map((team) => (
+                          <span key={team} className="text-[9px] text-white/90 bg-[#FF355E]/20 border border-[#FF355E]/40 rounded-full px-2 py-1">
                             {team}
                           </span>
                         ))}
